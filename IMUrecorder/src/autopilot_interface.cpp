@@ -271,8 +271,8 @@ read_messages()
 	Time_Stamps this_timestamps;
 
 //	std::ofstream imuWriter;
-	std::string imuLogPath = filePath + "IMU.txt";
-	imuWriter.open(imuLogPath);
+//	std::string imuLogPath = filePath + "IMU.txt";
+//	imuWriter.open(imuLogPath);
 
 	// Blocking wait for new data
 	while ( !received_all and !time_to_exit )
@@ -423,7 +423,7 @@ read_messages()
 		}
 
 	} // end: while not received all
-	imuWriter.close();
+
 	return;
 }
 
@@ -729,7 +729,7 @@ stop()
 	//   CLOSE THREADS
 	// --------------------------------------------------------------------------
 	printf("CLOSE THREADS\n");
-
+    imuWriter.close();
 	// signal exit
 	time_to_exit = true;
 

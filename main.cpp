@@ -52,17 +52,17 @@ int main(int argc, char ** argv)
     bool debug = true;
 
     VideoRecorder vidRecorder(debug, imageWidth, imageHeight, fps, imFormat, filePath, numCamera);
-//    MAVLinkControl mavControl(uartPort, baudRate, filePath);
+    MAVLinkControl mavControl(uartPort, baudRate, filePath);
 
 
 //    cout << "hello" << endl;
     vidRecorder.start();
-//    mavControl.start();
+    mavControl.start();
     while(cin.get() != '\n')
         cout << "Press ENTER to end the recording." << endl;
     cout << "stop recording..." << endl;
     vidRecorder.stop();
-//    mavControl.stop();
+    mavControl.stop();
 
     cout << "recording done." << endl;
 
