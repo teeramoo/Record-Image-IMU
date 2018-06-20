@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab42132c-e6ff-4b51-946a-fe1896e0164b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h" beforeDir="false" afterPath="$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -37,6 +36,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mavlink_control.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IMUrecorder/src/mavlink_control.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="VideoRecorder.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VideoRecorder/src/VideoRecorder.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +57,8 @@
       <file leaf-file-name="autopilot_interface.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
+            <state relative-caret-position="631">
+              <caret line="303" selection-start-line="303" selection-end-line="303" />
             </state>
           </provider>
         </entry>
@@ -58,8 +66,8 @@
       <file leaf-file-name="autopilot_interface.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="991">
-              <caret line="870" column="1" lean-forward="true" selection-start-line="870" selection-start-column="1" selection-end-line="870" selection-end-column="1" />
+            <state relative-caret-position="-2376">
+              <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
               <folding>
                 <element signature="e#20728#22253#0" />
               </folding>
@@ -70,7 +78,7 @@
       <file leaf-file-name="VideoRecorder.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VideoRecorder/include/VideoRecorder.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="613">
               <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding>
                 <element signature="e#114#143#0" expanded="true" />
@@ -242,12 +250,12 @@
       <workItem from="1528954018567" duration="1042000" />
       <workItem from="1528957614542" duration="28000" />
       <workItem from="1528961930545" duration="2155000" />
-      <workItem from="1529492383462" duration="5384000" />
+      <workItem from="1529492383462" duration="6379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28462000" />
+    <option name="totallyTimeSpent" value="29457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1437" y="29" width="1849" height="1084" extended-state="6" />
@@ -498,41 +506,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IMUrecorder/readIMU.cpp" />
     <entry file="file://$PROJECT_DIR$/VideoRecorder/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/VideoRecorder/include/VideoRecorder.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="e#114#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run2.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoRecorder/src/VideoRecorder.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="167" column="55" selection-start-line="167" selection-start-column="55" selection-end-line="167" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMUrecorder/src/mavlink_control.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -543,10 +520,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/VideoRecorder/include/VideoRecorder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#114#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMUrecorder/src/mavlink_control.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoRecorder/src/VideoRecorder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="167" column="55" selection-start-line="167" selection-start-column="55" selection-end-line="167" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="991">
-          <caret line="870" column="1" lean-forward="true" selection-start-line="870" selection-start-column="1" selection-end-line="870" selection-end-column="1" />
+        <state relative-caret-position="-2376">
+          <caret line="214" lean-forward="true" selection-start-line="214" selection-end-line="214" />
           <folding>
             <element signature="e#20728#22253#0" />
           </folding>

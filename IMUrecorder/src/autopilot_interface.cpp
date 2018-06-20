@@ -209,8 +209,9 @@ Autopilot_Interface(Serial_Port *serial_port_, std::string _filePath)
 	current_messages.sysid  = system_id;
 	current_messages.compid = autopilot_id;
 
-    std::string imuLogPath = filePath + "IMU.txt";
+    std::string imuLogPath = filePath + "IMU.csv";
     imuWriter.open(imuLogPath);
+    imuWriter << "timestamp [ns], ax,ay,az,gx,gy,gz" << std::endl;
 
 //	serial_port = serial_port_; // serial port management object
 
