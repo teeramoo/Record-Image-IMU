@@ -300,6 +300,8 @@ private:
 
 	std::string filePath;
 	boost::posix_time::ptime const referencedTime;
+	std::ofstream imuWriter;
+
 
 };
 

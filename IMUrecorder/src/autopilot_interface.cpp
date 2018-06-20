@@ -209,6 +209,9 @@ Autopilot_Interface(Serial_Port *serial_port_, std::string _filePath)
 	current_messages.sysid  = system_id;
 	current_messages.compid = autopilot_id;
 
+    std::string imuLogPath = filePath + "IMU.txt";
+    imuWriter.open(imuLogPath);
+
 //	serial_port = serial_port_; // serial port management object
 
 }
@@ -235,6 +238,7 @@ Autopilot_Interface(Serial_Port *serial_port_)
 	current_messages.compid = autopilot_id;
 
 	serial_port = serial_port_; // serial port management object
+
 
 }
 
@@ -265,7 +269,7 @@ read_messages()
 	bool received_all = false;  // receive only one message
 	Time_Stamps this_timestamps;
 
-	std::ofstream imuWriter;
+//	std::ofstream imuWriter;
 	std::string imuLogPath = filePath + "IMU.txt";
 	imuWriter.open(imuLogPath);
 
@@ -374,8 +378,7 @@ read_messages()
                     auto time = std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::high_resolution_clock::now().time_since_epoch());
 					imuWriter << time.count() << "," << current_messages.highres_imu.xacc << "," << current_messages.highres_imu.yacc
 								<< "," << current_messages.highres_imu.zacc << "," << current_messages.highres_imu.xgyro
-								<< "," << current_messages.highres_imu.ygyro << "," << current_messages.highres_imu.zgyro
-							    << ",e" << std::endl;
+								<< "," << current_messages.highres_imu.ygyro << "," << current_messages.highres_imu.zgyro << std::endl;
 					break;
 				}
 
@@ -627,7 +630,7 @@ start()
 	{
 		if ( time_to_exit )
 			return;
-		usleep(500000); // check at 2Hz
+		usleep(50000); // check at 20Hz
 	}
 
 	printf("Found\n");
@@ -817,7 +820,7 @@ read_thread()
 	while ( ! time_to_exit )
 	{
 		read_messages();
-		usleep(50000); // Read batches at 20Hz
+		usleep(5000); // Read batches at 200Hz
 	}
 
 	reading_status = false;
