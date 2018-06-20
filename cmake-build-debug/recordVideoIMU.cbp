@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="recordVideoIMU"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recordVideoIMU">
+				<Option output="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/recordVideoIMU" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/VideoRecorder/include"/>
+					<Add directory="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include"/>
+					<Add directory="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include/mavlink/v1.0"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 recordVideoIMU"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="recordVideoIMU/fast">
+				<Option output="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/recordVideoIMU" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/VideoRecorder/include"/>
+					<Add directory="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include"/>
+					<Add directory="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include/mavlink/v1.0"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 recordVideoIMU/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include/IMUrecorder.h">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include/autopilot_interface.h">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include/mavlink/v1.0/common">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include/mavlink_control.h">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/include/serial_port.h">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/src/IMUrecorder.cpp">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/src/autopilot_interface.cpp">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/src/mavlink_control.cpp">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/IMUrecorder/src/serial_port.cpp">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/VideoRecorder/include/VideoRecorder.h">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/VideoRecorder/src/VideoRecorder.cpp">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/main.cpp">
+			<Option target="recordVideoIMU"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/Thesis_work/Record-Image-IMU/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
