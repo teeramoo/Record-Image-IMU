@@ -56,12 +56,18 @@ int main(int argc, char ** argv)
 
 
 //    cout << "hello" << endl;
-    vidRecorder.start();
+    if(numCamera >0)
+        vidRecorder.start();
+
     mavControl.start();
+
     while(cin.get() != '\n')
         cout << "Press ENTER to end the recording." << endl;
     cout << "stop recording..." << endl;
-    vidRecorder.stop();
+
+    if(numCamera >0)
+        vidRecorder.stop();
+
     mavControl.stop();
 
     cout << "recording done." << endl;

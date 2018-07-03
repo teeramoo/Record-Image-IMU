@@ -640,6 +640,7 @@ start()
 	printf("\n");
 
 
+
 	// --------------------------------------------------------------------------
 	//   GET SYSTEM and COMPONENT IDs
 	// --------------------------------------------------------------------------
@@ -737,8 +738,10 @@ stop()
 	pthread_join(read_tid ,NULL);
 	pthread_join(write_tid,NULL);
 
+
 	// now the read and write threads are closed
 	printf("\n");
+
 
 	// still need to close the serial_port separately
 }

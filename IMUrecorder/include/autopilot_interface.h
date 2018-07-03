@@ -302,7 +302,6 @@ private:
 	boost::posix_time::ptime const referencedTime;
 	std::ofstream imuWriter;
 
-
 };
 
 

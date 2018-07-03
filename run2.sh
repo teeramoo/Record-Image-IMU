@@ -14,7 +14,7 @@ image_height='480'
 video_fps='30.0'
 imageFormat='jpeg'
 
-numCam='1'
+numCam='0'
 uartPort='/dev/ttyUSB0'
 baudRate='921600'
 
