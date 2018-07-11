@@ -27,7 +27,7 @@ void createDirectory(string _directoryName)
 int main(int argc, char ** argv)
 {
 
-    if(argc != 9) {
+    if(argc != 11) {
         cout << "Usage: " << argv[0] << " <file_path> <image_width> <image_height> <imqage_fps> <number_of_cameras> <image_format>"
                                         "<uart_port> <baud_rate> " << endl;
 
@@ -45,6 +45,14 @@ int main(int argc, char ** argv)
 
     string uartPort = string(argv[7]);
     int baudRate = stoi(string(argv[8]));
+    int recordTime = stoi(string(argv[9]));
+    int iIMU = stoi(string(argv[10]));
+
+    bool bIMU;
+    if(iIMU == 1)
+        bIMU = true;
+    else
+        bIMU = false;
 
     // load Output file path, uartPort
 
@@ -54,21 +62,53 @@ int main(int argc, char ** argv)
     VideoRecorder vidRecorder(debug, imageWidth, imageHeight, fps, imFormat, filePath, numCamera);
     MAVLinkControl mavControl(uartPort, baudRate, filePath);
 
+    if(iIMU)
+        cerr << "iIMU =1" <<endl;
+    if(!iIMU)
+        cerr << "iIMU =0" <<endl;
 
-//    cout << "hello" << endl;
     if(numCamera >0)
         vidRecorder.start();
+    if(bIMU)
+        mavControl.start();
 
-    mavControl.start();
+    // record until 'ENTER' button is pressed
+    if(recordTime == 0) {
 
-    while(cin.get() != '\n')
-        cout << "Press ENTER to end the recording." << endl;
+        while(cin.get() != '\n')
+            cout << "Press ENTER to end the recording." << endl;
+
+
+    } else {
+
+        auto start = std::chrono::high_resolution_clock::now();
+        unsigned int elapseTime;
+        int minutes = 0;
+        do{
+
+            auto currentTime = std::chrono::high_resolution_clock::now();
+            elapseTime = std::chrono::duration_cast<std::chrono::milliseconds>(currentTime - start).count();
+
+            if(elapseTime > (minutes +1)*60*10E2) {
+                cout << minutes +1 << " minutes passed." << endl;
+                cout << "elapseTime is : " << elapseTime << " milliseconds."<< endl;
+                minutes++;
+            }
+
+
+        }while( elapseTime < recordTime * 10E2);
+
+
+    }
+
     cout << "stop recording..." << endl;
+
 
     if(numCamera >0)
         vidRecorder.stop();
 
-    mavControl.stop();
+    if(bIMU)
+        mavControl.stop();
 
     cout << "recording done." << endl;
 

@@ -13,10 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ab42132c-e6ff-4b51-946a-fe1896e0164b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h" beforeDir="false" afterPath="$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/recordVideoIMU.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/recordVideoIMU.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/recordVideoIMU" beforeDir="false" afterPath="$PROJECT_DIR$/build/recordVideoIMU" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recordVideoIMU.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/recordVideoIMU.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run2.sh" afterDir="false" />
     </list>
@@ -36,71 +40,17 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mavlink_control.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMUrecorder/src/mavlink_control.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoRecorder.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VideoRecorder/src/VideoRecorder.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="208" column="148" lean-forward="true" selection-start-line="208" selection-end-line="208" selection-end-column="148" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autopilot_interface.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="305" column="2" selection-start-line="305" selection-start-column="2" selection-end-line="305" selection-end-column="2" />
-              <folding>
-                <element signature="e#2453#2477#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autopilot_interface.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="744" lean-forward="true" selection-start-line="744" selection-end-line="744" />
-              <folding>
-                <element signature="e#2391#2409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoRecorder.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VideoRecorder/include/VideoRecorder.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-              <folding>
-                <element signature="e#114#143#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run2.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run2.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run2.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+            <state relative-caret-position="342">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -121,11 +71,11 @@
         <option value="$PROJECT_DIR$/build.sh" />
         <option value="$PROJECT_DIR$/VideoRecorder/main.cpp" />
         <option value="$PROJECT_DIR$/VideoRecorder/include/VideoRecorder.h" />
-        <option value="$PROJECT_DIR$/run2.sh" />
         <option value="$PROJECT_DIR$/VideoRecorder/src/VideoRecorder.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h" />
         <option value="$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp" />
+        <option value="$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/run2.sh" />
       </list>
     </option>
   </component>
@@ -149,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +173,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build.sh" />
       <option name="PARAMETERS" value="" />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="recordVideoIMU" RUN_TARGET_NAME="recordVideoIMU" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="recordVideoIMU" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="recordVideoIMU" TARGET_NAME="recordVideoIMU" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="recordVideoIMU" RUN_TARGET_NAME="recordVideoIMU" />
     <list>
       <item itemvalue="Application.Build All" />
@@ -261,25 +211,25 @@
       <workItem from="1528961930545" duration="2155000" />
       <workItem from="1529492383462" duration="6379000" />
       <workItem from="1529509629858" duration="665000" />
-      <workItem from="1530612582510" duration="2118000" />
+      <workItem from="1530612582510" duration="2809000" />
+      <workItem from="1531305900231" duration="5136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32240000" />
+    <option name="totallyTimeSpent" value="38067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1437" y="29" width="1849" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985955" weight="0.13362542" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985955" visible="true" weight="0.13362542" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.25498426" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32984293" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.5014045" side_tool="true" weight="1.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,20 +243,20 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985955" visible="true" weight="0.13362542" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Data View" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.25498426" />
       <window_info id="Favorites" order="2" sideWeight="0.5014045" side_tool="true" weight="1.0" />
@@ -337,9 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="e#114#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -368,9 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#114#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -555,27 +499,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IMUrecorder/readIMU.cpp" />
     <entry file="file://$PROJECT_DIR$/VideoRecorder/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/run2.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VideoRecorder/include/VideoRecorder.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="865">
           <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="e#114#143#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9774">
+          <caret line="744" selection-start-line="744" selection-end-line="744" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="302" column="26" selection-start-line="302" selection-start-column="26" selection-end-line="302" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -589,27 +530,21 @@
     <entry file="file://$PROJECT_DIR$/VideoRecorder/src/VideoRecorder.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="208" column="148" lean-forward="true" selection-start-line="208" selection-end-line="208" selection-end-column="148" />
+          <caret line="208" column="148" selection-start-line="208" selection-end-line="208" selection-end-column="148" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMUrecorder/include/autopilot_interface.h">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="305" column="2" selection-start-line="305" selection-start-column="2" selection-end-line="305" selection-end-column="2" />
-          <folding>
-            <element signature="e#2453#2477#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMUrecorder/src/autopilot_interface.cpp">
+    <entry file="file://$PROJECT_DIR$/run2.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="744" lean-forward="true" selection-start-line="744" selection-end-line="744" />
-          <folding>
-            <element signature="e#2391#2409#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
